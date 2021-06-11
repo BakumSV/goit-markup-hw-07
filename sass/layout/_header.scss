@@ -35,12 +35,12 @@
     margin: 0 auto;
     margin-top: 28px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    .header-nav__link:hover.&,
-    .header-nav__link:focus.& {
-      background-color: var(--accent-color);
-    }
   }
+}
+
+.header-nav__link:hover.header-nav__link::after,
+.header-nav__link:focus.header-nav__link::after {
+  background-color: var(--accent-color);
 }
 
 .header-nav__link--active {
@@ -88,4 +88,10 @@
   margin-right: 10px;
   width: 10px;
   height: 16px;
+}
+.header__border {
+  height: 0px;
+  left: 0px;
+  top: 80px;
+  border: 1px solid #ececec;
 }

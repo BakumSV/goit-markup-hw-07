@@ -1,6 +1,3 @@
-.client-section {
-  padding-top: 94px;
-}
 .client-list {
   display: flex;
   justify-content: space-between;
@@ -31,27 +28,27 @@
 }
 
 .client-list__icon {
-  &:nth-child(1) {
+  &.first-comp {
     width: 44px;
     height: 49px;
   }
-  &:nth-child(2) {
+  &.second-comp {
     width: 40px;
     height: 52px;
   }
-  &:nth-child(3) {
+  &.third-comp {
     width: 41px;
     height: 42px;
   }
-  &:nth-child(4) {
+  &.fourth-comp {
     width: 79px;
     height: 42px;
   }
-  &:nth-child(5) {
+  &.fifth-comp {
     width: 59px;
     height: 47px;
   }
-  &:nth-child(6) {
+  &.sixth-comp {
     width: 88px;
     height: 45px;
   }
